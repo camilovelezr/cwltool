@@ -236,7 +236,7 @@ class DockerCommandLineJob(ContainerCommandLineJob):
 
     @staticmethod
     def append_volume(
-        runtime: List[str], source: str, target: str, writable: bool = False
+        runtime: List[str], source: str, target: str, writable: bool = True
     ) -> None:
         """Add binding arguments to the runtime list."""
         options = [

@@ -88,7 +88,7 @@ else:
 
 setup(
     name="cwltool",
-    version="3.1",
+    version="3.1.dev1",
     description="Common workflow language reference implementation",
     long_description=open(README).read(),
     long_description_content_type="text/x-rst",
